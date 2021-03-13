@@ -5,7 +5,6 @@ class Example{
         total = a+b;
     }
 }
-
 public class multiple {
     public static void main (String a[])
     {
