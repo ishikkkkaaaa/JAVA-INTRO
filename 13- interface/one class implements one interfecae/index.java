@@ -3,7 +3,8 @@ public class index {
     {
         //obj cannot be created of an instance
         //so we cannot get an output from any of the below interface
-         
+         Son obj = new Son();
+         obj.disp();
     }
     
 }
@@ -18,5 +19,11 @@ interface Father {
 }
 
 class Son implements Father {
-    
+    int mark1 = 101;
+    int sum = Father.mark + mark1;
+    public void disp()
+    {
+        System.out.println("roll is: "+ Father.roll);
+        System.out.println("sum is: "+ sum);
+    }
 }
